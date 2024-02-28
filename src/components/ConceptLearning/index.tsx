@@ -7,7 +7,9 @@ const ConceptLearning = () => {
     <div className="relative w-416 h-278">
       <div className="common_card conceptlearning_bg" />
       <div className="common_card conceptlearning_card">
-        <img className="bitcoin_bg" />
+        <picture>
+          <img alt="bitcoin" className="bitcoin_bg" />
+        </picture>
         <div className="flex flex-col h-full justify-between">
           <div className="z-10">
             <div className="flex h-4 justify-between pl-4 w-44 items-center bg-card-black relative">
