@@ -1,0 +1,26 @@
+.conceptlearning_card {
+  padding: 20px 16px;
+}
+
+.conceptlearning_bg {
+  background: linear-gradient(to bottom right, #EB3E1C, #E0AD38);
+  border: 1px solid #000;
+}
+
+.conceptlearning_card:hover {
+  left: 4px;
+  bottom: 4px;
+}
+
+.bitcoin_bg {
+  position: absolute;
+  width: 384px;
+  height: 238px;
+  background-color: #B6E1D8;
+  background-image: url('./bitcoin.png');
+  background-repeat: no-repeat;
+  background-size: 165%;
+  background-position-y: 40%;
+  background-position-x: 69%;
+  border-radius: 20px;
+}

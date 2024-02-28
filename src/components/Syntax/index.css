@@ -1,0 +1,43 @@
+.syntax_box {
+  left: 0;
+}
+
+.syntax_card {
+  left: 0;
+  overflow: hidden;
+}
+
+.syntax_card:hover {
+  left: 4px;
+  bottom: 4px;
+}
+
+.syntax_bg {
+  left: 0;
+  background: linear-gradient(to bottom right, #0891D5, #38C1A5);
+  border: 1px solid #000;
+}
+
+.syn_left_line {
+  position: absolute;
+  bottom: 60px;
+  left: -48px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.syntax_card:hover>.syn_left_line {
+  bottom: 58px;
+  background: linear-gradient(to bottom right, #0891D5, #38C1A5);
+}
+
+.syn_right_line {
+  position: absolute;
+  bottom: 60px;
+  right: -48px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #000;
+}

@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: Next Title;
+  src: url("../../public/font/NEXT-Book-Bold.otf") format('opentype');
+}
+
+@font-face {
+  font-family: Next Tip;
+  font-weight: 400;
+  src: url("../../public/font/NEXT-Book-Regular.otf");
+}
+
+@font-face {
+  font-family: Neue Machina;
+  src: url("../../public/font/neuemachina-light.otf");
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("../../public/font/iconfont.ttf?t=1709111481566") format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 14px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

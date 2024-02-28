@@ -1,0 +1,48 @@
+.learningtracks_card {
+  overflow: hidden;
+}
+
+.learningtracks_card:hover {
+  left: 4px;
+  bottom: 4px;
+}
+
+.learningtracks_bg {
+  background: linear-gradient(to bottom right, #0891D5, #38C1A5);
+  border: 1px solid #000;
+}
+
+.tracks_radius {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #131313;
+  top: 36px;
+  right: 0;
+  border-radius: 0 100% 0 0;
+  z-index: 10;
+}
+
+.learningtracks_card::after {
+  content: "";
+  display: block;
+  z-index: 1;
+  position: absolute;
+
+  top: 36px;
+  right: 0px;
+
+  height: 40px;
+  width: 40px;
+  background: black;
+  border-left: 1px solid #131313;
+  border-bottom: 1px solid #131313;
+}
+
+.tracks_arc {
+  width: 0;
+  height: 0;
+  border-top: 36px solid transparent;
+  /* 下边 */
+  border-left: 64px solid #131313;
+}

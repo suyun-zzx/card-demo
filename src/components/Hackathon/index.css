@@ -1,0 +1,38 @@
+.hackathon_card {
+  overflow: hidden;
+}
+
+.hackathon_card:hover {
+  left: 4px;
+  bottom: 4px;
+}
+
+.hackathon_bg {
+  left: 0;
+  background: linear-gradient(180deg, #DA8AFF, #719BFF);
+  border: 1px solid #000;
+}
+
+.hack_left_line {
+  position: absolute;
+  top: 92px;
+  left: -48px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.hackathon_card:hover>.hack_left_line {
+  top: 96px;
+  background: linear-gradient(180deg, #DA8AFF, #719BFF);
+}
+
+.hack_right_line {
+  position: absolute;
+  top: 92px;
+  right: -48px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #000;
+}
