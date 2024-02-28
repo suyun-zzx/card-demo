@@ -5,7 +5,7 @@ import ConceptLearning from "@/components/ConceptLearning";
 import Hackathon from "@/components/Hackathon";
 import LearningTracks from "@/components/LearningTracks";
 import Syntax from "@/components/Syntax";
-import { UIEvent, useEffect, useRef, useState } from 'react';
+import { UIEvent, useRef, useState } from 'react';
 
 export default function Cards() {
   const container = useRef<HTMLDivElement>(null)
@@ -14,7 +14,7 @@ export default function Cards() {
     left: false,
   })
 
-  /** @name 监听滚动距离 */
+  /** @name 监听滚动 */
   const handleScroll = (e: UIEvent) => {
     const { scrollLeft, scrollWidth, clientWidth,clientLeft } = e.currentTarget
     console.log(scrollLeft, clientWidth, scrollWidth, clientLeft)
@@ -58,7 +58,6 @@ export default function Cards() {
           <div className="fixed h-80 w-40 left_shadow" />
         </div>
         <div onClick={() => handleClickArrow('left')} className="absolute top-48 left-28 z-20">
-
           <div className='rounded-full border-solid fixed border-2 border-tip w-11 h-11 rotate-315 card_btn' />
         </div>
       </>}
