@@ -20,7 +20,7 @@ const LearningTracks = () => {
 
         <div className="flex flex-col px-11 py-8 h-full justify-between">
           <div className="flex flex-col gap-3">
-            <Span fromColor="#38C1A5" toColor="#0891D5" />
+            <Span fromColor="#D9E313" toColor="#3CBC34" />
             <h2 className="text-input-text font-title text-lg" >Web 3.0 Programming Advanced</h2>
             <Tip texts={["Beginner"]} />
             <p className="text-12 text-input-title leading-3">
